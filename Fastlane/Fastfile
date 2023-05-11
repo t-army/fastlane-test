@@ -5,12 +5,12 @@ opt_out_usage
 skip_docs
 prompt = TTY::Prompt.new
 
-import("./android.rb")
-import("./ios.rb")
-import("./codepush.rb")
-import("./sentry.rb")
-import("./misc.rb")
-import("./enums.rb")
+import("./lanes/android.rb")
+import("./lanes/ios.rb")
+import("./lanes/codepush.rb")
+import("./lanes/sentry.rb")
+import("./lanes/misc.rb")
+import("./lanes/enums.rb")
 
 private_lane :cleanup do
   sh "rm -rf ../dSYMs ../dist ../*.ipa ../*.dSYM.zip"

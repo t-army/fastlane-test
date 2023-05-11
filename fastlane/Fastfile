@@ -182,7 +182,7 @@ lane :interactive do
         cleanup
       end
     when MENU::DOCTOR
-      sh "yarn run doctor"
+      sh "node ../scripts/helpers/doctor.js"
     when MENU::CLEAR_CACHE
       selection = prompt.select("Which option do you want to select?", [
         {value: CLEAR_OPTIONS::ANDROID, name: "Android"},

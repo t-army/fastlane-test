@@ -35,3 +35,9 @@ module VERSION_SELECTIONS
   KEEP = 3
   CUSTOM = 4
 end
+
+module ICONS
+  TESTFLIGHT = "https://firebasestorage.googleapis.com/v0/b/popile-firebase-staging.appspot.com/o/slack%2Ftestflight.png?alt=media&token=9d244963-8f7c-4038-ac0d-17fe03253b78"
+  GOOGLE_PLAY = "https://firebasestorage.googleapis.com/v0/b/popile-firebase-staging.appspot.com/o/slack%2Fgoogle-play.png?alt=media&token=fa0d65c5-7cd7-4e53-a9e8-2b62bb9551f0"
+  CODEPUSH = "https://firebasestorage.googleapis.com/v0/b/popile-firebase-staging.appspot.com/o/slack%2Fcodepush.png?alt=media&token=05c9bc42-ba7b-4932-8449-04faf1207e3b"
+end
